@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.alvarosantos.workshop_springboot_jpa.entities.Category;
 import com.alvarosantos.workshop_springboot_jpa.services.CategoryService;
+import com.alvarosantos.workshop_springboot_jpa.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/categories")
